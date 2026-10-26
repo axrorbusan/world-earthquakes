@@ -1,0 +1,129 @@
+{
+  "n_events_m45": 281260,
+  "years": [
+    1975,
+    2025
+  ],
+  "share_within_100km_of_plate_boundary": {
+    "m4.5+": 0.6561508924127142,
+    "m6+": 0.6585400028022979
+  },
+  "share_within_100km_random_points": 0.09518,
+  "gutenberg_richter": {
+    "period": "2000-2025",
+    "main_estimate": {
+      "magnitudes": "Mw only",
+      "mc": 5.5,
+      "b": 0.9979443964960332,
+      "b_ci95": [
+        0.9775689549570408,
+        1.014869176882762
+      ],
+      "n": 11954
+    },
+    "naive_all_types": {
+      "mc_max_curvature": 4.7,
+      "b": 1.1414023550738484,
+      "n": 105993
+    },
+    "share_mb_by_magnitude": {
+      "3.0": 0.0,
+      "4.0": 0.956635779771535,
+      "5.0": 0.8014567393733832,
+      "6.0": 0.07034668461797375,
+      "7.0": 0.006060606060606061,
+      "8.0": 0.0,
+      "9.0": 0.0
+    },
+    "interpretation": "each +1 magnitude is about 10x rarer"
+  },
+  "m7_per_year": {
+    "mean_since_1990": 15.027777777777779,
+    "variance_since_1990": 13.856349206349208,
+    "dispersion_index": 0.9220491153947716,
+    "p_overdispersion": 0.6005059459638131,
+    "trend_1975_2025_pct_per_decade": 5.95986319017443,
+    "trend_1975_2025_p": 0.023573426530676834,
+    "trend_1990_2025_pct_per_decade": -2.3613654665941564,
+    "trend_1990_2025_p": 0.5637341620331793,
+    "share_ms_or_mb_magnitudes_by_decade": {
+      "1970": 0.896551724137931,
+      "1980": 0.18181818181818182,
+      "1990": 0.0,
+      "2000": 0.0,
+      "2010": 0.0,
+      "2020": 0.0
+    },
+    "max_year": 2010,
+    "max_count": 24
+  },
+  "depth_share": {
+    "shallow_<70km": 0.7697148545829482,
+    "intermediate_70-300km": 0.17807366849178696,
+    "deep_>=300km": 0.05221147692526488,
+    "deepest_km": 700.9,
+    "exactly_10km_default": 0.26123515608333925
+  },
+  "largest": [
+    {
+      "time": "2004-12-26",
+      "mag": 9.1,
+      "depth": 30.0,
+      "place": "2004 Sumatra - Andaman Islands Earthquake"
+    },
+    {
+      "time": "2011-03-11",
+      "mag": 9.1,
+      "depth": 29.0,
+      "place": "2011 Great Tohoku Earthquake, Japan"
+    },
+    {
+      "time": "2010-02-27",
+      "mag": 8.8,
+      "depth": 22.9,
+      "place": "2010 Maule, Chile Earthquake"
+    },
+    {
+      "time": "2025-07-29",
+      "mag": 8.8,
+      "depth": 35.0,
+      "place": "2025 Kamchatka Peninsula, Russia Earthquake"
+    },
+    {
+      "time": "2005-03-28",
+      "mag": 8.6,
+      "depth": 30.0,
+      "place": "78 km WSW of Singkil, Indonesia"
+    },
+    {
+      "time": "2012-04-11",
+      "mag": 8.6,
+      "depth": 20.0,
+      "place": "2012 Wharton Basin Earthquake"
+    },
+    {
+      "time": "2001-06-23",
+      "mag": 8.4,
+      "depth": 33.0,
+      "place": "6 km SSW of Atico, Peru"
+    },
+    {
+      "time": "2007-09-12",
+      "mag": 8.4,
+      "depth": 34.0,
+      "place": "122 km SW of Bengkulu, Indonesia"
+    },
+    {
+      "time": "1977-08-19",
+      "mag": 8.3,
+      "depth": 15.9,
+      "place": "1977 Sumba, Indonesia Earthquake"
+    },
+    {
+      "time": "1994-10-04",
+      "mag": 8.3,
+      "depth": 14.0,
+      "place": "48 km E of Shikotan, Russia"
+    }
+  ]
+}
